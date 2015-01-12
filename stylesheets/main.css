@@ -1,0 +1,43 @@
+body {
+  background-image: url("../images/wood-grain.jpg");
+  background-size: 100%;
+}
+
+header {
+  padding: 25px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+  header h1 {
+    color: whitesmoke;
+  }
+  header form {
+    margin: 25px;
+  }
+
+#links i {
+  color: whitesmoke;
+  padding-right: 50px;
+}
+  #links i:first-child {
+    padding-right: 0px;
+  }
+
+/* #carousel {
+  margin: 0 auto;
+  width: 75%;
+} */
+  #carousel img {
+    width: 100%;
+    height: 500px;
+  }
+
+footer {
+  padding: 25px;
+  text-align: center;
+  color: whitesmoke;
+}
+  footer > * {
+    display: inline-block;
+    margin-right: 25px;
+  }
