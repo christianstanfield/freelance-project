@@ -1,0 +1,9 @@
+{
+  "name": "My fancy app",
+  "version": "0.0.0",
+  "description": "",
+  "repository": "",
+  "dependencies": {
+    "statik": "~1.2.5"
+  }
+}
