@@ -3,25 +3,22 @@ body {
   background-size: 100%;
 }
 
-header {
+header, footer {
   padding: 25px;
   text-align: center;
-  margin-bottom: 25px;
+  color: #0e7001;
+  text-shadow: 1px 1px 1px #000;
 }
-  header h1 {
-    color: whitesmoke;
+  header {
+    margin-bottom: 25px;
   }
-  header form {
-    margin: 25px;
+  header h1 {
+    font-size: 48px;
   }
 
-#links i {
-  color: whitesmoke;
-  padding-right: 50px;
+h2 {
+  font-size: 32px;
 }
-  #links i:first-child {
-    padding-right: 0px;
-  }
 
 /* #carousel {
   margin: 0 auto;
@@ -32,12 +29,6 @@ header {
     height: 500px;
   }
 
-footer {
-  padding: 25px;
-  text-align: center;
-  color: whitesmoke;
+footer a {
+  margin: 10px 0;
 }
-  footer > * {
-    display: inline-block;
-    margin-right: 25px;
-  }
