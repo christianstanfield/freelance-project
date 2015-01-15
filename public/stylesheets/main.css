@@ -1,34 +1,120 @@
 body {
-  background-image: url("../images/wood-grain.jpg");
+  background-image: url("../images/wood-grain-light.jpg");
   background-size: 100%;
 }
+
+nav {
+  background-color: #0e7001;
+  height: 80px;
+  margin-bottom: 150px;
+}
+  .one-edge-shadow {
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+  }
 
 header, footer {
   padding: 25px;
   text-align: center;
-  color: #0e7001;
-  text-shadow: 1px 1px 1px #000;
+  color: black;
 }
   header {
     margin-bottom: 25px;
   }
-  header h1 {
-    font-size: 48px;
+  header h1:first-child {
+    margin-bottom: 30px;
   }
 
+h1, h2 {
+  text-shadow: 1px 1px 60px rgba(255,255,255,0.9);
+}
+h1 {
+  font-size: 60px;
+}
 h2 {
-  font-size: 32px;
+  font-size: 48px;
 }
 
-/* #carousel {
-  margin: 0 auto;
-  width: 75%;
-} */
-  #carousel img {
-    width: 100%;
-    height: 500px;
+header form {
+  text-shadow: none;
+}
+  header form label {
+    font-size: 24px;
+  }
+  header form input[type="submit"] {
+    font-size: 24px;
+  }
+  .form-inline .form-control {
+    vertical-align: top;
+  }
+  .input-lg {
+    height: 36px;
+  }
+  .btn-lg {
+    padding: 0;
+    font-size: 25px;
+    padding: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  }
+  .btn-success {
+    background-color: #0e7001;
+    border-color: #335E33;
+  }
+  .white-background {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(79, 16, 11);
+  }
+  .pseudo-input {
+    padding: 5px 5px 0px 0px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.15);
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.15);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.15);
+  }
+  .no-border {
+    border: none;
+  }
+  input:focus {
+    outline: none;
+  }
+  .form-control, .form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
   }
 
+#links {
+  margin-top: 25px;
+}
+  .icon {
+    margin-top: 25px;
+    padding-right: 0px;
+    padding-left: 75px;
+  }
+  #links img {
+    height: 75px;
+  }
+
+#carousel {
+  -moz-box-shadow:      0  8px 8px -8px #696868,
+                        0 -8px 8px -8px #696868;
+  -webkit-box-shadow:   0  8px 8px -8px #696868,
+                        0 -8px 8px -8px #696868;
+  box-shadow:           0  8px 8px -8px #696868,
+                        0 -8px 8px -8px #696868;
+}
+  /* #carousel img {
+    width: 100%;
+    height: 500px;
+  } */
+
 footer a {
-  margin: 10px 0;
+  margin: 25px 0;
 }
