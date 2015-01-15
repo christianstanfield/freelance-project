@@ -90,13 +90,21 @@ header form {
     box-shadow: none;
   }
 
+@media screen and (min-width: 768px) {
+  #inputCity {
+    width: 210px;
+  }
+  .icon {
+    padding-left: 75px;
+  }
+}
+
 #links {
   margin-top: 25px;
 }
   .icon {
     margin-top: 25px;
     padding-right: 0px;
-    padding-left: 75px;
   }
   #links img {
     height: 75px;
@@ -110,10 +118,13 @@ header form {
   box-shadow:           0  8px 8px -8px #696868,
                         0 -8px 8px -8px #696868;
 }
-  /* #carousel img {
-    width: 100%;
-    height: 500px;
-  } */
+  .carousel-indicators li {
+    background-color: gray;
+    border-color: black;
+  }
+  .carousel-indicators .active {
+    background-color: #0e7001;
+  }
 
 footer a {
   margin: 25px 0;
