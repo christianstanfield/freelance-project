@@ -1,41 +1,55 @@
-body {
-  background-image: url("../images/wood-grain-light.jpg");
-  background-size: 100%;
-}
-
+/* ----- NAV ----- */
 nav {
   background-color: #0e7001;
   height: 80px;
-  margin-bottom: 150px;
+  position: relative; /* needed for box shadow */
+  -webkit-box-shadow: 1px 1px 5px #000;
+  -moz-box-shadow: 1px 1px 5px #000;
+  box-shadow: 1px 1px 5px #000;
 }
-  .one-edge-shadow {
-    -webkit-box-shadow: 0 8px 6px -6px black;
-    -moz-box-shadow: 0 8px 6px -6px black;
-    box-shadow: 0 8px 6px -6px black;
-  }
 
-header, footer {
+/* ----- TEXT ----- */
+header, footer, section {
   padding: 25px;
   text-align: center;
-  color: black;
+  color: rgba(65, 22, 14, 0.9);
 }
-  header {
-    margin-bottom: 25px;
-  }
-  header h1:first-child {
-    margin-bottom: 30px;
-  }
-
 h1, h2 {
   text-shadow: 1px 1px 60px rgba(255,255,255,0.9);
 }
-h1 {
-  font-size: 60px;
-}
-h2 {
-  font-size: 48px;
-}
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 30px;
+  }
 
+/* ----- HEADER / FOOTER ----- */
+header {
+  background: url("../images/wood-new2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+  header h1:first-child {
+    margin-bottom: 30px;
+  }
+footer {
+  background: url("../images/wood-new1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+  footer a {
+    margin: 25px 0;
+  }
+
+/* ----- HEADER FORM ----- */
 header form {
   text-shadow: none;
 }
@@ -52,7 +66,6 @@ header form {
     height: 36px;
   }
   .btn-lg {
-    padding: 0;
     font-size: 25px;
     padding: 5px;
     -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
@@ -91,15 +104,7 @@ header form {
     box-shadow: none;
   }
 
-@media screen and (min-width: 768px) {
-  #inputCity {
-    width: 220px;
-  }
-  .icon {
-    padding-left: 75px;
-  }
-}
-
+/* ----- HEADER LINKS ----- */
 #links {
   margin-top: 25px;
 }
@@ -111,13 +116,14 @@ header form {
     height: 75px;
   }
 
+/* ----- CAROUSEL ----- */
 #carousel {
   -moz-box-shadow:      0  8px 8px -8px #696868,
-                        0 -8px 8px -8px #696868;
+  0 -8px 8px -8px #696868;
   -webkit-box-shadow:   0  8px 8px -8px #696868,
-                        0 -8px 8px -8px #696868;
+  0 -8px 8px -8px #696868;
   box-shadow:           0  8px 8px -8px #696868,
-                        0 -8px 8px -8px #696868;
+  0 -8px 8px -8px #696868;
 }
   .carousel-indicators li {
     background-color: gray;
@@ -127,6 +133,52 @@ header form {
     background-color: #0e7001;
   }
 
-footer a {
-  margin: 25px 0;
+/* ----- BIZ EXAMPLES ----- */
+#business-examples {
+  background-color: rgba(203, 115, 51, 0.8);
+}
+  #business-examples .row {
+    margin-left: 0px;
+  }
+  #business-examples img {
+    width: 200px;
+  }
+  #business-examples h3 {
+    margin: 50px 0;
+  }
+  #business-examples h3:first-child {
+    margin-top: 25px;
+  }
+  #business-examples h2 {
+    text-shadow: none;
+  }
+  .selected {
+    border: 2px solid black;
+    background-color: whitesmoke;
+    padding: 10px 25px;
+  }
+
+
+/* ----- MOBILE ----- */
+@media screen and (min-width: 768px) {
+  .icon {
+    padding-left: 75px;
+  }
+  .col-md-3 h2 {
+    padding-right: 30px;
+  }
+  .bar-chart {
+    margin-left: 10px;
+  }
+  header {
+    padding-top: 150px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  #inputCity {
+    width: 220px;
+  }
+  .chat-text {
+    width: 280px;
+  }
 }
