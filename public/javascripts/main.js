@@ -1,9 +1,9 @@
 $(function () {
 
-  $('#business-examples h3').hover(function () {
-    $('#business-examples h3').removeClass('selected');
-    $(this).addClass('selected');
-  });
+  // $('#business-examples h3').hover(function () {
+  //   $('#business-examples h3').removeClass('selected');
+  //   $(this).addClass('selected');
+  // });
 
   if (window.matchMedia("(max-width: 768px)").matches) {
     $('.carousel-inner').html('');
