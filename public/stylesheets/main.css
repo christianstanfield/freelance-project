@@ -118,12 +118,9 @@ header form {
 
 /* ----- CAROUSEL ----- */
 #carousel {
-  -moz-box-shadow:      0  8px 8px -8px #696868,
-  0 -8px 8px -8px #696868;
-  -webkit-box-shadow:   0  8px 8px -8px #696868,
-  0 -8px 8px -8px #696868;
-  box-shadow:           0  8px 8px -8px #696868,
-  0 -8px 8px -8px #696868;
+  -moz-box-shadow: 0 -8px 8px -8px #696868;
+  -webkit-box-shadow: 0 -8px 8px -8px #696868;
+  box-shadow: 0 -8px 8px -8px #696868;
 }
   .carousel-indicators li {
     background-color: gray;
@@ -136,6 +133,10 @@ header form {
 /* ----- BIZ EXAMPLES ----- */
 #business-examples {
   background-color: rgba(203, 115, 51, 0.8);
+  position: relative;
+  -moz-box-shadow:      0  8px 8px -8px #696868;
+  -webkit-box-shadow:   0  8px 8px -8px #696868;
+  box-shadow:           0  8px 8px -8px #696868;
 }
   #business-examples .row {
     margin-left: 0px;
@@ -153,9 +154,24 @@ header form {
     text-shadow: none;
   }
   .selected {
-    border: 2px solid black;
-    background-color: whitesmoke;
+    border: 1px solid #9E6D13;
+    border-left: none;
+    background-color: rgb(255, 216, 165);
+  }
+  #biz-content {
+    height: 327px;
+    margin-top: 25px;
+    border: 1px solid #9E6D13;
+    background-color: rgb(255, 216, 165);
+  }
+  #biz-select {
+    padding-left: 0px;
+    position: relative;
+    left: -1px;
+  }
+  #biz-select h3 {
     padding: 10px 25px;
+
   }
 
 
