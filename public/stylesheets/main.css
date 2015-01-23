@@ -198,3 +198,13 @@ header form {
     width: 280px;
   }
 }
+@media all and (max-width: 1156px) {
+  #biz-content {
+    height: 360px;
+  }
+}
+@media all and (min-width: 1354px) {
+  #biz-content {
+    height: 294px;
+  }
+}
