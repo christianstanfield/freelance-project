@@ -157,6 +157,8 @@ header form {
     border: 1px solid #9E6D13;
     border-left: none;
     background-color: rgb(255, 216, 165);
+    pointer-events: none;
+    cursor: default;
   }
   #biz-content {
     height: 327px;
@@ -171,9 +173,22 @@ header form {
   }
   #biz-select h3 {
     padding: 10px 25px;
-
   }
-
+  a {
+    text-decoration: none;
+    color: rgba(65, 22, 14, 0.9);
+  }
+  a:hover {
+    text-decoration: underline;
+    color: rgba(65, 22, 14, 0.9);
+  }
+  a:visited {
+    color: rgba(65, 22, 14, 0.9);
+    text-decoration: none;
+  }
+  .selected a {
+    text-decoration: none;
+  }
 
 /* ----- MOBILE ----- */
 @media screen and (min-width: 768px) {
