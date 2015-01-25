@@ -4,6 +4,17 @@ $(function () {
     e.preventDefault();
     $('#business-examples h3').removeClass('selected');
     $(this).parent().addClass('selected');
+
+    var $link = $(this).attr('href');
+    var linkNum;
+    if ($link === '#biz-e-comm') linkNum = 1;
+    if ($link === '#biz-adver') linkNum = 2;
+    if ($link === '#biz-comm') linkNum = 3;
+    $('#biz-imgs').html(
+      '<img src="images/computer' + linkNum  + '.png" alt="Computer">' +
+      '<img src="images/chat-person' + linkNum  + '.png" alt="Chat">' +
+      '<img src="images/mobile-phone' + linkNum  + '.png" alt="Mobile Phone">'
+    );
   });
 
   if (window.matchMedia("(max-width: 768px)").matches) {

@@ -47,6 +47,7 @@ footer {
 }
   footer a {
     margin: 25px 0;
+    color: white;
   }
 
 /* ----- HEADER FORM ----- */
@@ -174,19 +175,20 @@ header form {
   #biz-select h3 {
     padding: 10px 25px;
   }
-  a {
+  #business-examples a {
     text-decoration: none;
     color: rgba(65, 22, 14, 0.9);
   }
-  a:hover {
+  #business-examples a:hover {
     text-decoration: underline;
     color: rgba(65, 22, 14, 0.9);
   }
-  a:visited {
+  #business-examples a:visited {
     color: rgba(65, 22, 14, 0.9);
     text-decoration: none;
   }
   .selected a {
+    color: rgba(65, 22, 14, 0.9);
     text-decoration: none;
   }
 
