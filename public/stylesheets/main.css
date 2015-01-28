@@ -130,6 +130,21 @@ header form {
   .carousel-indicators .active {
     background-color: #0e7001;
   }
+  #carousel i {
+    color: #0e7001;
+    position: absolute;
+    top: 35%;
+  }
+  .right-pos {
+    right: 0;
+    left: auto;
+  }
+  .right-pos i {
+    right: 15%;
+  }
+  .left-pos i {
+    left: 15%
+  }
 
 /* ----- BIZ EXAMPLES ----- */
 #business-examples {
